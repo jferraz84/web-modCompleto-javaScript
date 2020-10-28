@@ -2,7 +2,7 @@ const nome = 'Rebeca';
 const concatenacao = 'Ola ' + nome + ' !';
 
 const template = `
-    'Olá'
+    Olá
     ${nome}`;
 
 console.log(concatenacao, template) ;
@@ -10,4 +10,4 @@ console.log(concatenacao, template) ;
 //Expressões..
 console.log(`1 + 1 = ${1 + 1}`);
 const up = texto => texto.toUpperCase();
-console.log(`Ei... ${up('cuidado')} !`);
+console.log(`Ei... ${up('cuidado cão bravo')} !`);

@@ -1,7 +1,7 @@
 const escola = 'Cod3r';
 console.log(escola.charAt(4)); // Pegar um determinado caracter dentro da string
-console.log(escola.charCodeAt(3)); //Pegar o Valor de um caracter pelo código na tabela Unicode
-console.log(escola.indexOf('3')); // Pegando um indice de um caracter
+console.log(escola.charCodeAt(3)); //Pegar o Valor de um caracter pelo código na tabela Unicode ASC
+console.log(escola.indexOf('d')); // Pegando um indice de um caracter
 
 console.log(escola.substring(1));
 console.log(escola.substring(0, 3));//Chamada de substring com indice inicial '0' e o indicie final '3'

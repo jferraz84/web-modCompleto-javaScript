@@ -20,9 +20,9 @@ console.log(!!Infinity);
 console.log(!!(isAtivo = true));
 console.log(!!(isAtivo = Infinity));
 console.log(!!(isAtivo = 33));
-console.log(!!(isAtivo = 0));
 
 console.log('os falsos.... ');
+console.log(!!(isAtivo = 0));
 console.log(!!0);
 console.log(!!'');
 console.log(!!null);
