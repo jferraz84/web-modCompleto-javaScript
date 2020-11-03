@@ -2,7 +2,7 @@
 
 const pessoa = {
     nome: 'Aline',
-    idade: 33,
+    idade: 33 + " anos,",
     endereco: {
         logradouro: 'Rua: Clóvis lordano',
         numero: 140,
@@ -19,8 +19,8 @@ const { sobrenome, bemHumorada = true } = pessoa
 console.log(sobrenome, bemHumorada)
 console.log(nome, idade)
 
-const { nome: n, idade: id, endereco: { logradouro} } = pessoa
-console.log(n, id, logradouro)
+const { nome: n, idade: id, endereco: { logradouro, numero} } = pessoa
+console.log(n, id, logradouro, numero)
 
 
 
