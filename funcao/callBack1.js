@@ -5,3 +5,4 @@ function imprimir(nome, indice){
 }
 
 fabricantes.forEach(imprimir)
+
